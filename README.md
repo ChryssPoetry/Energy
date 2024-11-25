@@ -121,6 +121,6 @@ pip install streamlit pandas matplotlib scikit-learn
 Running the App
 bash
 Copy code
-streamlit run app.py
+streamlit run energy.py
 Author
 Nwafor Franklin Nnemeka
