@@ -13,7 +13,7 @@ st.write("By Nwafor Franklin Nnemeka")
 @st.cache_data
 def load_data():
     # Load and reshape the dataset
-    data = pd.read_csv("Downloads/World_Energy_By_Country_And_Region_1965_to_2023.csv")  # Replace with your file path
+    data = pd.read_csv("https://github.com/ChryssPoetry/Energy/blob/main/World_Energy_By_Country_And_Region_1965_to_2023.csv")  # Replace with your file path
     data = pd.melt(
         data,
         id_vars=["Country"],          # Keep 'Country' column as is
